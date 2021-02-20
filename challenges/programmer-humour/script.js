@@ -5,7 +5,7 @@ function getData(){
     .then(response => response.json())
     .then(data => {
         data
-        divEl.innerHTML = `<h3>${data.title}</h3><img src = ${data.img} alt"Random dog photos">`;
+        divEl.innerHTML = `<h3>${data.title}</h3><img src = ${data.img} alt"">`;
     })
     .catch(error => console.log(error));
 }
