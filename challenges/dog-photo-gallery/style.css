@@ -1,0 +1,28 @@
+body{
+    background-color: azure;
+}
+h3{
+    text-align: center;
+    color: rgb(247, 4, 53);
+}
+
+#header{
+    text-align: center;
+}
+#div{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  border-radius: 10px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul{
+  list-style-type: none;
+}
